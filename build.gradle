@@ -36,7 +36,9 @@ dependencies {
     compileOnly "io.micronaut:inject-java"
     runtime "ch.qos.logback:logback-classic:1.2.3"
     runtime "io.micronaut:graal"
-    runtime "io.jaegertracing:jaeger-core:0.27.0"
+
+    compile "io.jaegertracing:jaeger-thrift:0.31.0"
+
     testCompile "junit:junit:4.12"
     testCompile "io.micronaut:inject-java"
     testCompile "org.hamcrest:hamcrest-all:1.3"
