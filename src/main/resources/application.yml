@@ -1,0 +1,11 @@
+---
+micronaut:
+    application:
+        name: micronaut-jaeger-graal
+
+---
+tracing:
+  jaeger:
+    enabled: true
+    sampler:
+      probability: 0.1
