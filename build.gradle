@@ -38,6 +38,7 @@ dependencies {
     runtime "io.micronaut:graal"
 
     compile "io.jaegertracing:jaeger-thrift:0.31.0"
+    compile 'io.zipkin.brave:brave-instrumentation-http:4.19.0'
 
     testCompile "junit:junit:4.12"
     testCompile "io.micronaut:inject-java"
