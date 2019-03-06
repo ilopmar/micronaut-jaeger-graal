@@ -4,7 +4,7 @@ native-image --no-server \
              --class-path build/libs/micronaut-jaeger-graal-0.1-all.jar \
              -H:ReflectionConfigurationFiles=reflect.json \
              -H:EnableURLProtocols=http \
-             -H:IncludeResources="logback.xml|application.yml" \
+             -H:IncludeResources="logback.xml|application.yml|io/jaegertracing/internal/jaeger.properties" \
              -H:Name=mn-jaeger-graal \
              -H:Class=micronaut.jaeger.graal.Application \
              -H:+ReportUnsupportedElementsAtRuntime \
